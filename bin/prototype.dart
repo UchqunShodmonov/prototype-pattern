@@ -15,7 +15,6 @@ class Rectangle implements Shape {
   int? _hashCode;
   bool isClone = false;
 
-  
   String get cloneStatus => isClone ? "is a clone" : "is an original gangster";
 
   Rectangle(this.height, this.width, this.x, this.y);
